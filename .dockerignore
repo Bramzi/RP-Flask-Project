@@ -1,0 +1,4 @@
+terraform/
+helm/
+Jenkinsfile
+README.md

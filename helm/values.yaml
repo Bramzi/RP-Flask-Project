@@ -1,0 +1,8 @@
+deployment:
+   name: flask-rp
+   port: 5000
+   replicas: 2
+   image: 414771755323.dkr.ecr.eu-central-1.amazonaws.com/flaskrepo
+   tag: latest
+service:
+   nodeport: 30000
